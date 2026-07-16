@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Jewelry | Jacqueline Cavalcanti</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,900&family=Oswald:wght@400;500;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
+    <!-- Custom Cursor Glow -->
+    <div class="cursor-glow"></div>
+
+    <nav class="premium-nav">
+        <div class="nav-left">
+            <button class="menu-trigger" id="menuTrigger">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <span class="menu-label">MENU</span>
+            </button>
+            <img src="assests/Icu media.png" alt="ICU Media" class="nav-partner-logo">
+        </div>
+        <div class="nav-center">
+            <a href="index.html" class="nav-logo">
+                <img src="assests/Logo.jpg" alt="Jacqueline Cavalcanti Logo">
+            </a>
+        </div>
+        <div class="nav-right">
+            <a href="#jewelry-contact" class="header-cta-btn">CUSTOM PIECE</a>
+        </div>
+    </nav>
+
+    <!-- Full Screen Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay">
+        <button class="menu-close" id="menuClose">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="menu-overlay-inner">
+            <div class="menu-overlay-left">
+                <div class="menu-header-logos">
+                    <img src="assests/Logo.jpg" alt="Logo" class="menu-logo">
+                    <img src="assests/Icu media.png" alt="Partner Logo" class="menu-logo-partner">
+                </div>
+                <nav class="overlay-nav">
+                    <a href="index.html#story" class="overlay-link"><span>01</span>Story</a>
+                    <a href="index.html#gallery" class="overlay-link"><span>02</span>Gallery</a>
+                    <a href="index.html#video" class="overlay-link"><span>03</span>Highlights</a>
+                    <a href="index.html#sponsors" class="overlay-link"><span>04</span>Partners</a>
+                    <a href="custom-jewelry.html" class="overlay-link"><span>05</span>Custom Jewelry</a>
+                    <a href="index.html#contact" class="overlay-link"><span>06</span>Contact</a>
+                </nav>
+                <div class="menu-socials">
+                    <a href="https://www.instagram.com/jacqueline.cavalcanti/" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@JacquelineCavalcantiOfficial" target="_blank"><i
+                            class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/p/Jacqueline-Cavalcanti-100060362175706/" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="menu-partner-area">
+                    <img src="assests/Icu media.png" alt="ICU Media" class="menu-partner-logo">
+                </div>
+            </div>
+            <div class="menu-overlay-right">
+                <img src="assests/img3.jpeg" alt="" class="menu-bg-img">
+            </div>
+        </div>
+    </div>
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <!-- HERO SECTION -->
+            <section class="hero" id="home">
+                <div class="hero-bg">
+                    <img src="newassets/IMG_1324.JPG" alt="Custom Jewelry Hero" class="hero-video" style="filter: grayscale(30%) brightness(0.8); object-position: center 15%;">
+                    <div class="hero-overlay" style="opacity: 0.5;"></div>
+                    <div class="particles"></div>
+                </div>
+
+                <div class="hero-content">
+                    <div class="hero-text-wrapper" style="text-align: center; margin: 0 auto;">
+                        <h1 class="hero-title" style="align-items: center; text-align: center;">
+                            <span class="title-line" style="text-align: center;"><span class="title-inner text-outline">LUXURY MEETS</span></span>
+                            <span class="title-line" style="text-align: center;"><span class="title-inner">EXCELLENCE</span></span>
+                        </h1>
+                        <p class="hero-subtitle" style="justify-content: center;">
+                            <span class="subtitle-word">EXCLUSIVE</span>
+                            <span class="subtitle-dot">•</span>
+                            <span class="subtitle-word">CRAFTED</span>
+                            <span class="subtitle-dot">•</span>
+                            <span class="subtitle-word">ELITE</span>
+                        </p>
+                        <p class="hero-tagline" style="text-align: center; max-width: 600px; margin: 0 auto 3rem;">
+                            Exclusive custom jewelry crafted for elite athletes, entrepreneurs, and luxury collectors.
+                        </p>
+
+                        <div class="hero-buttons" style="justify-content: center;">
+                            <a href="#collection" class="btn btn-golden">
+                                <span>VIEW COLLECTION</span>
+                            </a>
+                            <a href="#jewelry-contact" class="btn btn-outline-gold">
+                                <span>REQUEST CUSTOM PIECE</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIDEO SHOWCASE SECTION -->
+            <section class="video-showcase-section" style="padding: 100px 5%; background: var(--c-graphite);">
+                <div class="sponsors-header" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; margin-bottom: 4rem;">
+                    <h2 class="massive-text" style="font-size: clamp(2.5rem, 5vw, 4rem);">THE <span>CRAFT</span></h2>
+                    <p class="body-text" style="color: var(--c-silver); margin-top: 1rem; text-align: center; width: 100%; margin-left: auto; margin-right: auto;">Experience the mastery behind our elite custom pieces.</p>
+                </div>
+                <style>
+                    /* Swiper styling for mobile slider */
+                    .video-prev, .video-next {
+                        color: var(--c-gold) !important;
+                        background: rgba(0, 0, 0, 0.6);
+                        border-radius: 50%;
+                        width: 45px !important;
+                        height: 45px !important;
+                        border: 1px solid rgba(255,255,255,0.1);
+                    }
+                    .video-prev::after, .video-next::after {
+                        font-size: 18px !important;
+                        font-weight: bold;
+                    }
+                    .video-reel-swiper {
+                        padding-bottom: 30px !important;
+                    }
+                    @media (min-width: 768px) {
+                        .video-prev, .video-next {
+                            display: none !important; /* Hide arrows on PC */
+                        }
+                        .video-reel-swiper {
+                            overflow: visible !important;
+                        }
+                        .video-slide-wrap {
+                            display: flex; justify-content: center;
+                        }
+                    }
+                    @media (max-width: 767px) {
+                        .video-slide-wrap {
+                            display: flex; justify-content: center;
+                        }
+                    }
+                </style>
+                <div class="swiper video-reel-swiper" style="max-width: 1200px; margin: 0 auto; width: 100%;">
+                    <div class="swiper-wrapper">
+                        <!-- Video 1 -->
+                        <div class="swiper-slide video-slide-wrap">
+                            <div class="reel-container" style="width: 100%; max-width: 320px; position: relative; aspect-ratio: 9/16; overflow: hidden; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); background: #000; cursor: pointer;">
+                                <iframe src="https://player.vimeo.com/video/1192382112?controls=0&autoplay=1&muted=1&loop=1&title=0&byline=0&portrait=0" 
+                                        frameborder="0" allow="autoplay; fullscreen" 
+                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></iframe>
+                                <div class="play-btn" style="position: absolute; bottom: 15px; right: 70px; width: 45px; height: 45px; border-radius: 50%; background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; color: white; border: 1px solid rgba(255,255,255,0.2); transition: 0.3s; z-index: 10;">
+                                    <i class="fas fa-pause"></i>
+                                </div>
+                                <div class="mute-btn" style="position: absolute; bottom: 15px; right: 15px; width: 45px; height: 45px; border-radius: 50%; background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; color: white; border: 1px solid rgba(255,255,255,0.2); transition: 0.3s; z-index: 10;">
+                                    <i class="fas fa-volume-mute"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Video 2 -->
+                        <div class="swiper-slide video-slide-wrap">
+                            <div class="reel-container" style="width: 100%; max-width: 320px; position: relative; aspect-ratio: 9/16; overflow: hidden; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); background: #000; cursor: pointer;">
+                                <iframe src="https://player.vimeo.com/video/1191306849?controls=0&autoplay=1&muted=1&loop=1&title=0&byline=0&portrait=0" 
+                                        frameborder="0" allow="autoplay; fullscreen" 
+                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></iframe>
+                                <div class="play-btn" style="position: absolute; bottom: 15px; right: 70px; width: 45px; height: 45px; border-radius: 50%; background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; color: white; border: 1px solid rgba(255,255,255,0.2); transition: 0.3s; z-index: 10;">
+                                    <i class="fas fa-pause"></i>
+                                </div>
+                                <div class="mute-btn" style="position: absolute; bottom: 15px; right: 15px; width: 45px; height: 45px; border-radius: 50%; background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; color: white; border: 1px solid rgba(255,255,255,0.2); transition: 0.3s; z-index: 10;">
+                                    <i class="fas fa-volume-mute"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Video 3 -->
+                        <div class="swiper-slide video-slide-wrap">
+                            <div class="reel-container" style="width: 100%; max-width: 320px; position: relative; aspect-ratio: 9/16; overflow: hidden; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); background: #000; cursor: pointer;">
+                                <iframe src="https://player.vimeo.com/video/1191306824?controls=0&autoplay=1&muted=1&loop=1&title=0&byline=0&portrait=0" 
+                                        frameborder="0" allow="autoplay; fullscreen" 
+                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></iframe>
+                                <div class="play-btn" style="position: absolute; bottom: 15px; right: 70px; width: 45px; height: 45px; border-radius: 50%; background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; color: white; border: 1px solid rgba(255,255,255,0.2); transition: 0.3s; z-index: 10;">
+                                    <i class="fas fa-pause"></i>
+                                </div>
+                                <div class="mute-btn" style="position: absolute; bottom: 15px; right: 15px; width: 45px; height: 45px; border-radius: 50%; background: rgba(0,0,0,0.6); display: flex; align-items: center; justify-content: center; color: white; border: 1px solid rgba(255,255,255,0.2); transition: 0.3s; z-index: 10;">
+                                    <i class="fas fa-volume-mute"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Navigation arrows -->
+                    <div class="swiper-button-prev video-prev"></div>
+                    <div class="swiper-button-next video-next"></div>
+                </div>
+
+                <script src="https://player.vimeo.com/api/player.js"></script>
+                <script>
+                    document.addEventListener('DOMContentLoaded', () => {
+                        // Initialize Swiper for mobile slider
+                        const videoSwiper = new Swiper('.video-reel-swiper', {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                            navigation: {
+                                nextEl: '.video-next',
+                                prevEl: '.video-prev',
+                            },
+                            breakpoints: {
+                                768: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 24,
+                                    allowTouchMove: false // Disable dragging on PC
+                                }
+                            }
+                        });
+
+                        // Initialize Custom Vimeo Controls
+                        const reels = document.querySelectorAll('.reel-container');
+                        reels.forEach(container => {
+                            const iframe = container.querySelector('iframe');
+                            const player = new Vimeo.Player(iframe);
+                            const playBtn = container.querySelector('.play-btn');
+                            const muteBtn = container.querySelector('.mute-btn');
+                            
+                            let isPlaying = true;
+                            let isMuted = true;
+                            
+                            container.addEventListener('click', (e) => {
+                                if (e.target.closest('.mute-btn')) {
+                                    isMuted = !isMuted;
+                                    player.setVolume(isMuted ? 0 : 1).catch(err => console.log('Mute error:', err));
+                                    muteBtn.innerHTML = isMuted ? '<i class="fas fa-volume-mute"></i>' : '<i class="fas fa-volume-up"></i>';
+                                    muteBtn.style.background = isMuted ? 'rgba(0,0,0,0.6)' : 'rgba(191, 149, 63, 0.9)'; // Gold color
+                                } else {
+                                    if (isPlaying) {
+                                        player.pause().then(() => {
+                                            playBtn.innerHTML = '<i class="fas fa-play"></i>';
+                                            isPlaying = false;
+                                        }).catch(err => console.log('Pause error:', err));
+                                    } else {
+                                        player.play().then(() => {
+                                            playBtn.innerHTML = '<i class="fas fa-pause"></i>';
+                                            isPlaying = true;
+                                        }).catch(err => console.log('Play error:', err));
+                                    }
+                                }
+                            });
+                        });
+                    });
+                </script>
+            </section>
+
+            <!-- PARTNERSHIP STRIP -->
+            <div class="partnership-marquee">
+                <div class="marquee-content">
+                    <span>MAX DAO x GOLDCHAIN DAO</span><i class="fas fa-gem text-gold"></i>
+                    <span>AK CUSTOM JEWELERS</span><i class="fas fa-gem text-gold"></i>
+                    <span>LUXURY LIFESTYLE</span><i class="fas fa-gem text-gold"></i>
+                    <span>WORLDWIDE VIP</span><i class="fas fa-gem text-gold"></i>
+                    <span>MAX DAO x GOLDCHAIN DAO</span><i class="fas fa-gem text-gold"></i>
+                    <span>AK CUSTOM JEWELERS</span><i class="fas fa-gem text-gold"></i>
+                    <span>LUXURY LIFESTYLE</span><i class="fas fa-gem text-gold"></i>
+                    <span>WORLDWIDE VIP</span><i class="fas fa-gem text-gold"></i>
+                </div>
+            </div>
+
+            <!-- FEATURED JEWELRY SHOWCASE -->
+            <section class="story-section" id="collection" style="padding-bottom: 80px;">
+                <div class="social-header" style="text-align: center; justify-content: center; margin-bottom: 3rem;">
+                    <h2 class="massive-text">ELITE <br><span>COLLECTION</span></h2>
+                </div>
+
+                <div class="jewelry-grid">
+                    <!-- Product 1 -->
+                    <div class="jewelry-card" onclick="selectJewelry('Rolex Custom Watch')">
+                        <div class="jewelry-img-wrap">
+                            <img src="newassets/Rolex Custom.png" alt="Rolex">
+                            <div class="jewelry-glow"></div>
+                        </div>
+                        <div class="jewelry-info">
+                            <h3>Rolex Custom</h3>
+                            <p>Exquisite timepieces, elevated.</p>
+                            <span class="inquire-btn">INQUIRE</span>
+                        </div>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="jewelry-card" onclick="selectJewelry('Diamond Cuban Chain')">
+                        <div class="jewelry-img-wrap">
+                            <img src="newassets/Diamond Cuban Chain.png" alt="Diamond Chain">
+                            <div class="jewelry-glow"></div>
+                        </div>
+                        <div class="jewelry-info">
+                            <h3>Diamond Cuban Chain</h3>
+                            <p>Flawless VVS links.</p>
+                            <span class="inquire-btn">INQUIRE</span>
+                        </div>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="jewelry-card" onclick="selectJewelry('Tennis Bracelet')">
+                        <div class="jewelry-img-wrap">
+                            <img src="newassets/Tennis Bracelet.png" alt="Tennis Bracelet">
+                            <div class="jewelry-glow"></div>
+                        </div>
+                        <div class="jewelry-info">
+                            <h3>Tennis Bracelet</h3>
+                            <p>Brilliance in motion.</p>
+                            <span class="inquire-btn">INQUIRE</span>
+                        </div>
+                    </div>
+                    <!-- Product 4 -->
+                    <div class="jewelry-card" onclick="selectJewelry('Custom Pendant')">
+                        <div class="jewelry-img-wrap">
+                            <img src="newassets/Custom Pendant.png" alt="Custom Pendant">
+                            <div class="jewelry-glow"></div>
+                        </div>
+                        <div class="jewelry-info">
+                            <h3>Custom Pendant</h3>
+                            <p>Your legacy, personalized.</p>
+                            <span class="inquire-btn">INQUIRE</span>
+                        </div>
+                    </div>
+                    <!-- Product 5 -->
+                    <div class="jewelry-card" onclick="selectJewelry('Diamond Ring')">
+                        <div class="jewelry-img-wrap">
+                            <img src="newassets/Ring.png" alt="Diamond Ring">
+                            <div class="jewelry-glow"></div>
+                        </div>
+                        <div class="jewelry-info">
+                            <h3>Diamond Ring</h3>
+                            <p>Timeless luxury.</p>
+                            <span class="inquire-btn">INQUIRE</span>
+                        </div>
+                    </div>
+                    <!-- Product 6 -->
+                    <div class="jewelry-card" onclick="selectJewelry('VIP Elite Package')">
+                        <div class="jewelry-img-wrap">
+                            <img src="newassets/VIP Elite Package.png" alt="VIP Elite Package">
+                            <div class="jewelry-glow"></div>
+                        </div>
+                        <div class="jewelry-info">
+                            <h3>VIP Elite Package</h3>
+                            <p>The ultimate athlete bundle.</p>
+                            <span class="inquire-btn">INQUIRE</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- WHY CHOOSE US SECTION -->
+            <section class="why-us-section" style="padding: 100px 5%; background: var(--c-black);">
+                <div class="sponsors-header" style="text-align: center;">
+                    <h2 class="section-title">THE <span>GOLD STANDARD</span></h2>
+                </div>
+                <div class="why-us-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-hammer text-gold feature-icon"></i>
+                        <h3>Handcrafted Custom</h3>
+                        <p>Every piece is masterfully designed and sculpted to your exact specifications.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-gem text-gold feature-icon"></i>
+                        <h3>Certified Materials</h3>
+                        <p>We source only the highest quality VVS diamonds and purest gold.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-globe text-gold feature-icon"></i>
+                        <h3>Worldwide Delivery</h3>
+                        <p>Secure, insured shipping across the globe directly to your door.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-handshake text-gold feature-icon"></i>
+                        <h3>VIP Consultation</h3>
+                        <p>One-on-one virtual or in-person sessions to perfect your design.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PARTNERSHIP / SOCIAL PROOF -->
+            <section class="sponsors-section" id="sponsors">
+                <div class="sponsors-bg-gradient"></div>
+                <div class="sponsors-header">
+                    <h2 class="section-title">EXCLUSIVE <span>PARTNERSHIPS</span></h2>
+                </div>
+
+                <div class="sponsors-track">
+                    <div class="sponsor-card luxury-card">
+                        <div class="light-sweep"></div>
+                        <img src="assests/gold-chain-dao (1) (1) (1) (1).png" alt="GoldChain DAO">
+                    </div>
+                    <div class="sponsor-card luxury-card">
+                        <div class="light-sweep"></div>
+                        <img src="newassets/max dao logo.jfif" alt="MAX DAO">
+                    </div>
+                    <div class="sponsor-card luxury-card">
+                        <div class="light-sweep"></div>
+                        <img src="newassets/Kjs logo.jfif" alt="AK Custom Jewelers / KJs">
+                    </div>
+                    <div class="sponsor-card luxury-card">
+                        <div class="light-sweep"></div>
+                        <img src="assests/Maxie's-Las-Vegas-Logo.png" alt="Maxies">
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT FORM SECTION -->
+            <section class="contact-section" id="jewelry-contact">
+                <div class="contact-split">
+                    <div class="contact-image-side" style="background-color: transparent;">
+                        <img src="newassets/Promotion banner.jpg" alt="Custom Jewelry Consultation" style="object-fit: contain; width: 100%; height: 100%;">
+                    </div>
+
+                    <div class="contact-form-side">
+                        <div class="form-wrapper glass-panel">
+                            <h2 class="form-title">START YOUR <span>CUSTOM ORDER</span></h2>
+                            <p class="form-subtitle">VIP Consultations • Elite Designs • Worldwide</p>
+
+                            <form class="futuristic-form">
+                                <div class="input-group">
+                                    <input type="text" id="name" required>
+                                    <label for="name">FULL NAME</label>
+                                    <div class="input-focus-border"></div>
+                                </div>
+
+                                <div class="input-group">
+                                    <input type="email" id="email" required>
+                                    <label for="email">EMAIL ADDRESS</label>
+                                    <div class="input-focus-border"></div>
+                                </div>
+
+                                <div class="input-group">
+                                    <input type="tel" id="phone" required>
+                                    <label for="phone">PHONE NUMBER</label>
+                                    <div class="input-focus-border"></div>
+                                </div>
+
+                                <div class="input-group">
+                                    <input type="text" id="jewelryType" required>
+                                    <label for="jewelryType">JEWELRY TYPE (e.g., Diamond Chain, Rolex)</label>
+                                    <div class="input-focus-border"></div>
+                                </div>
+
+                                <div class="input-group">
+                                    <select id="budget" required>
+                                        <option value="" disabled selected>ESTIMATED BUDGET</option>
+                                        <option value="5k-10k">$5,000 - $10,000</option>
+                                        <option value="10k-25k">$10,000 - $25,000</option>
+                                        <option value="25k-50k">$25,000 - $50,000</option>
+                                        <option value="50k+">$50,000+</option>
+                                    </select>
+                                    <div class="input-focus-border"></div>
+                                </div>
+
+                                <div class="input-group">
+                                    <textarea id="message" rows="4" required></textarea>
+                                    <label for="message">DESIGN DETAILS & VISION</label>
+                                    <div class="input-focus-border"></div>
+                                </div>
+
+                                <button type="submit" class="btn btn-glow btn-golden submit-btn">
+                                    <span>SUBMIT INQUIRY</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="premium-footer">
+                <div class="footer-content">
+                    <div class="footer-logos">
+                        <img src="assests/Icu media.png" alt="Partner Logo" class="footer-logo">
+                        <img src="assests/Logo.jpg" alt="JC Logo" class="footer-logo brand">
+                        <img src="newassets/max dao logo.jfif" alt="MAX DAO" class="footer-logo brand"
+                            style="border-radius: 50%;">
+                        <img src="assests/gold-chain-dao (1) (1) (1) (1).png" alt="GoldChain DAO"
+                            class="footer-logo brand">
+                        <a href="https://brandsshift.com/" target="_blank"><img src="newassets/Brandsshift.png" alt="Brandsshift" class="footer-logo brand"></a>
+                    </div>
+                    <div class="footer-links">
+                        <a href="https://www.instagram.com/jacqueline.cavalcanti/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/p/Jacqueline-Cavalcanti-100060362175706/" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/@JacquelineCavalcantiOfficial" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 JACQUELINE CAVALCANTI. ALL RIGHTS RESERVED. <span class="gold-accent"
+                            style="margin-left: 20px; color: var(--c-gold);">POWERED BY ICU MEDIA & <a href="https://brandsshift.com/" target="_blank" style="color: inherit; text-decoration: none;">Brandsshift</a></span>
+                    </p>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        function selectJewelry(itemName) {
+            // Scroll to the contact form smoothly
+            document.getElementById('jewelry-contact').scrollIntoView({ behavior: 'smooth' });
+
+            // Set the jewelry type field
+            const jewelryInput = document.getElementById('jewelryType');
+            jewelryInput.value = itemName;
+
+            // Trigger the focus effect by focusing and blurring
+            jewelryInput.focus();
+
+            // Highlight the field briefly
+            jewelryInput.style.boxShadow = "0 0 15px var(--c-gold)";
+            setTimeout(() => {
+                jewelryInput.style.boxShadow = "none";
+            }, 1000);
+        }
+    </script>
+</body>
+
+</html>
