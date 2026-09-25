@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JACQUELINE CAVALCANTI | Elite UFC Athlete</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,900&family=Oswald:wght@400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+    
+    <!-- Custom Cursor Glow -->
+    <div class="cursor-glow"></div>
+
+    <nav class="premium-nav">
+        <div class="nav-left">
+            <button class="menu-trigger" id="menuTrigger">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <span class="menu-label">MENU</span>
+            </button>
+            <img src="assests/Icu media.png" alt="ICU Media" class="nav-partner-logo">
+        </div>
+        <div class="nav-center">
+            <a href="#" class="nav-logo">
+                <img src="assests/Logo.jpg" alt="Jacqueline Cavalcanti Logo">
+            </a>
+        </div>
+        <div class="nav-right">
+            <a href="#contact" class="header-cta-btn">WORK WITH ME</a>
+        </div>
+    </nav>
+
+    <!-- Full Screen Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay">
+        <button class="menu-close" id="menuClose">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="menu-overlay-inner">
+            <div class="menu-overlay-left">
+                <div class="menu-header-logos">
+                    <img src="assests/Logo.jpg" alt="Logo" class="menu-logo">
+                    <img src="assests/Icu media.png" alt="Partner Logo" class="menu-logo-partner">
+                </div>
+                <nav class="overlay-nav">
+                    <a href="#story" class="overlay-link" data-menu-link><span>01</span>Story</a>
+                    <a href="#gallery" class="overlay-link" data-menu-link><span>02</span>Gallery</a>
+                    <a href="#video" class="overlay-link" data-menu-link><span>03</span>Highlights</a>
+                    <a href="#sponsors" class="overlay-link" data-menu-link><span>04</span>Partners</a>
+                    <a href="custom-jewelry.html" class="overlay-link"><span>05</span>Custom Jewelry</a>
+                    <a href="#contact" class="overlay-link" data-menu-link><span>06</span>Contact</a>
+                </nav>
+                <div class="menu-socials">
+                    <a href="https://www.instagram.com/jacqueline.cavalcanti/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@JacquelineCavalcantiOfficial" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/p/Jacqueline-Cavalcanti-100060362175706/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="menu-partner-area">
+                    <img src="assests/Icu media.png" alt="ICU Media" class="menu-partner-logo">
+                </div>
+            </div>
+            <div class="menu-overlay-right">
+                <img src="assests/img3.jpeg" alt="" class="menu-bg-img">
+            </div>
+        </div>
+    </div>
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            
+            <!-- SECTION 1: CINEMATIC HERO INTRO -->
+            <section class="hero" id="home">
+                <div class="hero-bg">
+                    <video autoplay muted loop playsinline class="hero-video">
+                        <source src="assests/hero%20shoot%20video.mp4" type="video/mp4">
+                    </video>
+                    <div class="hero-overlay"></div>
+                    <div class="particles"></div>
+                </div>
+
+                <div class="hero-content">
+                    <div class="hero-text-wrapper">
+                        <h1 class="hero-title">
+                            <span class="title-line"><span class="title-inner">JACQUELINE</span></span>
+                            <span class="title-line"><span class="title-inner text-outline">CAVALCANTI</span></span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            <span class="subtitle-word">RELENTLESS</span>
+                            <span class="subtitle-dot">•</span>
+                            <span class="subtitle-word">FEARLESS</span>
+                            <span class="subtitle-dot">•</span>
+                            <span class="subtitle-word">ELITE</span>
+                        </p>
+                        <p class="hero-tagline">Portugal's Powerhouse. Witness the Co-Main Event on Saturday on Paramount+.</p>
+                        
+                        <div class="hero-buttons">
+                            <a href="#video" class="btn btn-golden">
+                                <span>WATCH JOURNEY</span>
+                            </a>
+                            <a href="#contact" class="btn btn-outline-gold">
+                                <span>SPONSORSHIP</span>
+                            </a>
+                            <a href="custom-jewelry.html" class="btn btn-outline-gold" style="margin-left: 15px;">
+                                <span>CUSTOM JEWELRY</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-fighter-image">
+                        <img src="assests/heroimgg.png" alt="Jacqueline Cavalcanti" class="fighter-cutout">
+                        <div class="fighter-glow"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PARTNERSHIP STRIP -->
+            <div class="partnership-marquee">
+                <div class="marquee-content">
+                    <span>MAX DAO x GOLDCHAIN DAO</span><i class="fas fa-gem text-gold"></i>
+                    <span>LUXURY MEETS EXCELLENCE</span><i class="fas fa-gem text-gold"></i>
+                    <span>ELITE COMBAT SPORTS LIFESTYLE</span><i class="fas fa-gem text-gold"></i>
+                    <span>CUSTOM JEWELRY FOR CHAMPIONS</span><i class="fas fa-gem text-gold"></i>
+                    <span>MAX DAO x GOLDCHAIN DAO</span><i class="fas fa-gem text-gold"></i>
+                    <span>LUXURY MEETS EXCELLENCE</span><i class="fas fa-gem text-gold"></i>
+                    <span>ELITE COMBAT SPORTS LIFESTYLE</span><i class="fas fa-gem text-gold"></i>
+                    <span>CUSTOM JEWELRY FOR CHAMPIONS</span><i class="fas fa-gem text-gold"></i>
+                </div>
+            </div>
+
+            <!-- SECTION 2: SPLIT SCREEN STORY LAYOUT -->
+            <section class="story-section" id="story">
+                <div class="story-container">
+                    <div class="story-left">
+                        <div class="vertical-image-wrapper">
+                            <img src="assests/img1.jpeg" alt="Training" class="story-img" data-speed="0.8">
+                            <div class="image-glow-border"></div>
+                        </div>
+                        
+                        <div class="stat-cards">
+                            <div class="stat-card" data-speed="1.2">
+                                <span class="stat-value">UFC</span>
+                                <span class="stat-label">FIGHTER</span>
+                            </div>
+                            <div class="stat-card" data-speed="1.4">
+                                <span class="stat-value">135<small>LBS</small></span>
+                                <span class="stat-label">BANTAMWEIGHT</span>
+                            </div>
+                            <div class="stat-card" data-speed="1.6">
+                                <span class="stat-value"><i class="fas fa-star"></i></span>
+                                <span class="stat-label">ELITE ATHLETE</span>
+                            </div>
+                            <div class="stat-card" data-speed="1.8">
+                                <span class="stat-value">BRAZIL</span>
+                                <span class="stat-label">HERITAGE</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="story-right">
+                        <div class="story-content">
+                            <h2 class="massive-text">FIGHT WEEK: <br><span>MILLIONS OF EYES</span> WATCHING GLOBALLY</h2>
+                            <div class="animated-divider"></div>
+                            
+                            <div class="story-text-block">
+                                <h4 class="accent-text">[ THE WORLD STAGE ]</h4>
+                                <p class="body-text">From Lisbon to Las Vegas, the world is watching Jacqueline.</p>
+                            </div>
+
+                            <div class="story-text-block" style="margin-top: 3rem;">
+                                <h4 class="accent-text">[ THE ULTIMATE CHALLENGE ]</h4>
+                                <p class="body-text">The spotlight is on, the cameras are rolling, and the stage is set for the biggest co-main event of the year. Unprecedented coverage. Unprecedented intensity. Follow the media journey and upcoming fight analysis here as we countdown to the walkout.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 3: CHAOTIC IMAGE COLLAGE -->
+            <!-- SECTION 3: PINNED HORIZONTAL GALLERY -->
+            <section class="gallery-pinned-section" id="gallery">
+                <div class="gallery-sticky-wrapper">
+                    <div class="gallery-sticky-content">
+                        <!-- Background Sequence -->
+                        <div class="gallery-bg-container">
+                            <div class="gallery-bg-item active" style="background-image: url('assests/img1.jpeg');"></div>
+                            <div class="gallery-bg-item" style="background-image: url('assests/img4.jpeg');"></div>
+                            <div class="gallery-bg-item" style="background-image: url('assests/img3.jpeg');"></div>
+                            <div class="gallery-bg-item" style="background-image: url('assests/img2.jpeg');"></div>
+                        </div>
+
+                        <div class="gallery-title-layer">
+                            <span class="gallery-subtitle">THE OCTAGON LENS</span>
+                            <h2 class="massive-text-bg">VISUAL<span>LEGACY</span></h2>
+                        </div>
+                        
+                        <div class="gallery-horizontal-track">
+                            <!-- Slide 1 -->
+                            <div class="gallery-slide" data-index="0">
+                                <div class="slide-card">
+                                    <div class="card-img-wrap">
+                                        <img src="assests/img1.jpeg" alt="Action">
+                                    </div>
+                                    <div class="card-info">
+                                        <span class="card-num">01</span>
+                                        <h3 class="card-title">PURE ENERGY</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="gallery-slide" data-index="1">
+                                <div class="slide-card">
+                                    <div class="card-img-wrap">
+                                        <img src="assests/img4.jpeg" alt="Training">
+                                    </div>
+                                    <div class="card-info">
+                                        <span class="card-num">02</span>
+                                        <h3 class="card-title">THE GRIND</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 3 -->
+                            <div class="gallery-slide" data-index="2">
+                                <div class="slide-card">
+                                    <div class="card-img-wrap">
+                                        <img src="assests/img3.jpeg" alt="Focus">
+                                    </div>
+                                    <div class="card-info">
+                                        <span class="card-num">03</span>
+                                        <h3 class="card-title">UNYIELDING FOCUS</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Slide 4 -->
+                            <div class="gallery-slide" data-index="3">
+                                <div class="slide-card">
+                                    <div class="card-img-wrap">
+                                        <img src="assests/img2.jpeg" alt="Victory">
+                                    </div>
+                                    <div class="card-info">
+                                        <span class="card-num">04</span>
+                                        <h3 class="card-title">CHAMPION'S WILL</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="gallery-progress-bar">
+                            <div class="progress-inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- SECTION 5: SOLO MISSION ORBITAL COLLAGE -->
+            <section class="mission-collage-section" id="mission">
+                <div class="orbit-glow-bg"></div>
+
+                <div class="collage-orbit-container">
+                    
+                    <!-- Central Focal Point (Clean Video Loop) -->
+                    <div class="orbit-center">
+                        <div class="center-card-inner glass-frame-premium">
+                            <div class="center-vimeo-wrapper">
+                                <iframe src="https://player.vimeo.com/video/1191305681?autoplay=1&loop=1&muted=1&autopause=0&background=1&playsinline=1" 
+                                        frameborder="0" 
+                                        allow="autoplay; fullscreen" 
+                                        allowfullscreen 
+                                        style="width:100%;height:100%;"></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Orbital Items (Images & Videos) -->
+                    <div class="orbit-item item-1" data-type="image" data-src="assests/Picc%201.jpeg"><div class="item-inner"><img src="assests/Picc%201.jpeg" alt=""></div></div>
+                    <div class="orbit-item item-2" data-type="video" data-id="1191306824"><div class="item-inner">
+                        <div class="item-vimeo-wrapper">
+                            <iframe src="https://player.vimeo.com/video/1191306824?autoplay=1&loop=1&muted=1&background=1&playsinline=1&autopause=0" frameborder="0" allow="autoplay; fullscreen" style="width:100%;height:100%;"></iframe>
+                        </div>
+                    </div></div>
+                    <div class="orbit-item item-3" data-type="image" data-src="assests/picc2.jpeg"><div class="item-inner"><img src="assests/picc2.jpeg" alt=""></div></div>
+                    <div class="orbit-item item-4" data-type="video" data-id="1191306849"><div class="item-inner">
+                        <div class="item-vimeo-wrapper">
+                            <iframe src="https://player.vimeo.com/video/1191306849?autoplay=1&loop=1&muted=1&background=1&playsinline=1&autopause=0" frameborder="0" allow="autoplay; fullscreen" style="width:100%;height:100%;"></iframe>
+                        </div>
+                    </div></div>
+                    <div class="orbit-item item-5" data-type="image" data-src="assests/piccc3.jfif"><div class="item-inner"><img src="assests/piccc3.jfif" alt=""></div></div>
+                    <div class="orbit-item item-6" data-type="image" data-src="assests/MCR07845.jpg"><div class="item-inner"><img src="assests/MCR07845.jpg" alt=""></div></div>
+                    <div class="orbit-item item-7" data-type="image" data-src="assests/_dsc0739.jpg"><div class="item-inner"><img src="assests/_dsc0739.jpg" alt=""></div></div>
+                    <div class="orbit-item item-8" data-type="image" data-src="assests/F4ED67D1-9C5C-46C8-BFA6-87978513AD66.jpg"><div class="item-inner"><img src="assests/F4ED67D1-9C5C-46C8-BFA6-87978513AD66.jpg" alt=""></div></div>
+                    <div class="orbit-item item-9" data-type="image" data-src="assests/IMG_7362.jpeg"><div class="item-inner"><img src="assests/IMG_7362.jpeg" alt=""></div></div>
+                    <div class="orbit-item item-10" data-type="image" data-src="assests/IMG_4493.JPG"><div class="item-inner"><img src="assests/IMG_4493.JPG" alt=""></div></div>
+                    <div class="orbit-item item-11" data-type="image" data-src="assests/MCR07845.jpg"><div class="item-inner"><img src="assests/MCR07845.jpg" alt=""></div></div>
+                    <div class="orbit-item item-12" data-type="image" data-src="assests/_dsc0739.jpg"><div class="item-inner"><img src="assests/_dsc0739.jpg" alt=""></div></div>
+
+                </div>
+            </section>
+
+
+
+            <!-- SECTION 5: TRAINING CAMP / SPONSORS -->
+            <section class="sponsors-section" id="sponsors">
+                <div class="sponsors-bg-gradient"></div>
+                <div class="sponsors-header">
+                    <h2 class="section-title">POWERED BY <span>ELITE PARTNERS</span></h2>
+                </div>
+                
+                <div class="sponsors-track">
+                    <div class="sponsor-card luxury-card">
+                        <div class="light-sweep"></div>
+                        <img src="assests/gold-chain-dao (1) (1) (1) (1).png" alt="GoldChain DAO">
+                    </div>
+                    <div class="sponsor-card luxury-card">
+                        <div class="light-sweep"></div>
+                        <img src="newassets/max%20dao%20logo.jfif" alt="MAX DAO">
+                    </div>
+                    <div class="sponsor-card luxury-card">
+                        <div class="light-sweep"></div>
+                        <img src="newassets/Kjs%20logo.jfif" alt="KJs">
+                    </div>
+                    <div class="sponsor-card luxury-card">
+                        <div class="light-sweep"></div>
+                        <img src="assests/Maxie's-Las-Vegas-Logo.png" alt="Maxies">
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 6: SOCIAL ENERGY SECTION -->
+            <section class="social-section" id="social">
+                <div class="social-header">
+                    <h2 class="section-title text-outline">DIGITAL <br><span>PRESENCE</span></h2>
+                    <a href="https://www.instagram.com/jacqueline.cavalcanti/" target="_blank" class="btn btn-glow social-cta">
+                        <span>FOLLOW ON INSTAGRAM</span>
+                    </a>
+                </div>
+                
+                <div class="reel-carousel-wrapper">
+                    <button class="reel-nav-btn" id="reelPrev"><i class="fas fa-chevron-left"></i></button>
+
+                    <div class="reel-track" id="reelTrack">
+                        <!-- Card 1 -->
+                        <div class="reel-card" data-vimeo="1190996156">
+                            <div class="phone-shell">
+                                <div class="phone-top-bar">
+                                    <button class="ctrl-btn play-pause"><i class="fas fa-play"></i></button>
+                                    <button class="ctrl-btn mute-toggle"><i class="fas fa-volume-mute"></i></button>
+                                </div>
+                                <div class="phone-screen">
+                                    <div class="reel-iframe-wrap"></div>
+                                    <div class="reel-caption">RELENTLESS</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="reel-card" data-vimeo="1190996140">
+                            <div class="phone-shell">
+                                <div class="phone-top-bar">
+                                    <button class="ctrl-btn play-pause"><i class="fas fa-play"></i></button>
+                                    <button class="ctrl-btn mute-toggle"><i class="fas fa-volume-mute"></i></button>
+                                </div>
+                                <div class="phone-screen">
+                                    <div class="reel-iframe-wrap"></div>
+                                    <div class="reel-caption">FIGHT NIGHT</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 — CENTER ACTIVE -->
+                        <div class="reel-card active" data-vimeo="1190996129">
+                            <div class="phone-shell">
+                                <div class="phone-top-bar">
+                                    <button class="ctrl-btn play-pause"><i class="fas fa-play"></i></button>
+                                    <button class="ctrl-btn mute-toggle"><i class="fas fa-volume-mute"></i></button>
+                                </div>
+                                <div class="phone-screen">
+                                    <div class="reel-iframe-wrap"></div>
+                                    <div class="reel-caption active-caption">I'm back</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="reel-card" data-vimeo="1190996128">
+                            <div class="phone-shell">
+                                <div class="phone-top-bar">
+                                    <button class="ctrl-btn play-pause"><i class="fas fa-play"></i></button>
+                                    <button class="ctrl-btn mute-toggle"><i class="fas fa-volume-mute"></i></button>
+                                </div>
+                                <div class="phone-screen">
+                                    <div class="reel-iframe-wrap"></div>
+                                    <div class="reel-caption">CHAMPION</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="reel-card" data-vimeo="1190996131">
+                            <div class="phone-shell">
+                                <div class="phone-top-bar">
+                                    <button class="ctrl-btn play-pause"><i class="fas fa-play"></i></button>
+                                    <button class="ctrl-btn mute-toggle"><i class="fas fa-volume-mute"></i></button>
+                                </div>
+                                <div class="phone-screen">
+                                    <div class="reel-iframe-wrap"></div>
+                                    <div class="reel-caption">WARRIOR</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="reel-card" data-vimeo="1190996127">
+                            <div class="phone-shell">
+                                <div class="phone-top-bar">
+                                    <button class="ctrl-btn play-pause"><i class="fas fa-play"></i></button>
+                                    <button class="ctrl-btn mute-toggle"><i class="fas fa-volume-mute"></i></button>
+                                </div>
+                                <div class="phone-screen">
+                                    <div class="reel-iframe-wrap"></div>
+                                    <div class="reel-caption">ELITE</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="reel-nav-btn" id="reelNext"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </section>
+
+            <!-- SECTION 7: CONTACT EXPERIENCE -->
+            <section class="contact-section" id="contact">
+                <div class="contact-split">
+                    <div class="contact-image-side">
+                        <img src="assests/img1.jpeg" alt="Contact Jacqueline">
+                        <div class="contact-image-overlay"></div>
+                    </div>
+                    
+                    <div class="contact-form-side">
+                        <div class="form-wrapper glass-panel">
+                            <h2 class="form-title">WORK WITH <span>JACQUELINE</span></h2>
+                            <p class="form-subtitle">Sponsorships • Brand Collabs • Media</p>
+                            
+                            <form class="futuristic-form">
+                                <div class="input-group">
+                                    <input type="text" id="name" required>
+                                    <label for="name">IDENTITY / BRAND</label>
+                                    <div class="input-focus-border"></div>
+                                </div>
+                                
+                                <div class="input-group">
+                                    <input type="email" id="email" required>
+                                    <label for="email">TRANSMISSION LINK (EMAIL)</label>
+                                    <div class="input-focus-border"></div>
+                                </div>
+                                
+                                <div class="input-group">
+                                    <select id="type" required>
+                                        <option value="" disabled selected>SELECT DIRECTIVE</option>
+                                        <option value="sponsorship">SPONSORSHIP INQUIRY</option>
+                                        <option value="collab">BRAND COLLABORATION</option>
+                                        <option value="media">MEDIA OPPORTUNITY</option>
+                                    </select>
+                                    <div class="input-focus-border"></div>
+                                </div>
+                                
+                                <div class="input-group">
+                                    <textarea id="message" rows="4" required></textarea>
+                                    <label for="message">TRANSMISSION DATA</label>
+                                    <div class="input-focus-border"></div>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-glow btn-golden submit-btn">
+                                    <span>INITIATE CONTACT</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="premium-footer">
+                <div class="footer-content">
+                    <div class="footer-logos">
+                        <img src="assests/Icu media.png" alt="Partner Logo" class="footer-logo">
+                        <img src="assests/Logo.jpg" alt="JC Logo" class="footer-logo brand">
+                        <img src="newassets/max%20dao%20logo.jfif" alt="MAX DAO" class="footer-logo brand" style="border-radius: 50%;">
+                        <img src="assests/gold-chain-dao (1) (1) (1) (1).png" alt="GoldChain DAO" class="footer-logo brand">
+                        <a href="https://brandsshift.com/" target="_blank"><img src="newassets/Brandsshift.png" alt="Brandsshift" class="footer-logo brand"></a>
+                    </div>
+                    <div class="footer-links">
+                        <a href="https://www.instagram.com/jacqueline.cavalcanti/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/p/Jacqueline-Cavalcanti-100060362175706/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/@JacquelineCavalcantiOfficial" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 JACQUELINE CAVALCANTI. ALL RIGHTS RESERVED. <span class="gold-accent" style="margin-left: 20px; color: var(--c-gold);">POWERED BY ICU MEDIA & <a href="https://brandsshift.com/" target="_blank" style="color: inherit; text-decoration: none;">Brandsshift</a></span></p>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
+    <!-- Orbit Media Modal -->
+    <div class="orbit-modal" id="orbitModal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content-wrapper">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Media injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
